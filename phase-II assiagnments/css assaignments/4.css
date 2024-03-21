@@ -1,0 +1,35 @@
+.A{
+    color: white;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.B{
+    color: black ;
+    background-color:white ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.C{
+    color: white;
+    background-color:black ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.D{
+    color: black;
+    background-color:white ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.E{
+    color:white ;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.F{
+    color:black ;
+    background-color:white ;
+    font-family: 'Times New Roman', Times, serif;
+}
+.G{
+    color:white ;
+    background-color:black ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

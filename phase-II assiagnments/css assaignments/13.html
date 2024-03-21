@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>13-c</title>
+        <style>
+           .relative{
+                position: relative;
+                border: 5px solid red;
+                background-color: rgb(240, 235, 235);
+                width: 500px;
+            }
+            .relative1{
+                position: relative;
+                width: 600px;
+                height: 300px;
+                background-color: pink;
+                border: 5px solid brown;
+                height:"200px"; width:"200px";
+            }
+            .absolute{
+                position: absolute;
+                top:80px;
+
+                right: 5px;
+                width:150px ;
+                height:200px;
+                background-color: rgb(213, 213, 122);
+                border: 5px solid rgb(246, 20, 246);
+            }
+            .sticky{
+                 position: -webkit-sticky;
+                 position:sticky;
+                 top: 0;
+                 padding: 5px;
+                 border: 5px solid rgb(16, 16, 177);
+                 background-color:rgb(242, 7, 234);
+            }
+            .fixed{
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                background-color:rgb(242, 142, 20);
+                border: 5px solid rgb(230, 13, 13);
+                padding: 10px;
+            }
+            h1{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>POSITIONING</h1>
+        <div>
+            <h2>Relative:</h2>
+            <div class="relative">Hello world</div>
+            <p>An element with position: relative; is positioned relative to its
+                normal position.</p>
+        </div><hr>
+        <div>
+            <h2>Absolute:</h2>
+            <p>An element with position: absolute; is positioned relative to the
+                nearest positioned ancestor (instead of positioned relative to
+                the viewport, like fixed)</p>
+            <div class="relative1">this is image of tulip flowers
+                <img
+                    src="https://th.bing.com/th/id/R.b1c377b297128ecd0b247c057ea226c2?rik=a9bdhG7LZqLimw&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2014%2f12%2fTulip-flower-hd-wallpapers.jpg&ehk=thwYp9LQu6BGvlww2ShqkplNgFNQdCxKsywNr3afnjg%3d&risl=&pid=ImgRaw&r=0" 
+                     class="absolute"></div>
+        </div><hr>
+        <div>
+            <h2>Sticky</h2>
+            <div class="sticky">CYBER SECURITY</div>
+            <p>In this example, the sticky element sticks to the top of the page
+                (top: 0), when you reach its scroll position.
+
+                Scroll back up to remove the stickyness.</p>
+            <p>Cybersecurity aims to protect individuals’ and organizations’ systems, applications, computing devices, sensitive data and financial assets against computer viruses, sophisticated and costly ransomware attacks, and more.
+
+                Cyberattacks have the power to disrupt, damage or destroy businesses, and the cost to victims keeps rising. For example, according to IBM's Cost of a Data Breach 2023 report, 
+                
+                The average cost of a data breach in 2023 was USD 4.45 million, up 15% over the last three years;
+                
+                The average cost of a ransomware-related data breach in 2023 was even higher, at USD 5.13 million. This number does not include the cost of the ransom payment, which averaged an extra USD 1,542,333, up 89% from the previous year. 
+                By one estimate, cybercrime might cost the world economy USD 10.5 trillion per year by 2025.1
+                
+                The expanding information technology (IT) trends of the past few years include:
+                
+                a rise in cloud computing adoption,
+                network complexity,
+                remote work and work from home,
+                bring your own device (BYOD) programs,
+                and connected devices and sensors in everything from doorbells to cars to assembly lines.
+                All these trends create tremendous business advantages and human progress, but also provide exponentially more opportunities for cybercriminals to attack.
+                
+                Not surprisingly, a recent study found that the global cybersecurity worker gap—the gap between existing cybersecurity workers and cybersecurity jobs that need to be filled—was 3.4 million workers worldwide.2 Resource-strained security teams are focusing on developing comprehensive cybersecurity strategies that use advanced analytics, artificial intelligence and automation to fight cyberthreats more effectively and minimize the impact of cyberattacks.
+                
+                Report
+                IBM Security X-Force Threat Intelligence Index
+                Gain insights to prepare and respond to cyberattacks with greater speed and effectiveness with the IBM Security X-Force Threat Intelligence Index.
+                
+                Related content
+                Register for the Cost of a Data Breach report
+                
+                Types of cybersecurity (cybersecurity domains)
+                A strong cybersecurity strategy protects all relevant IT infrastructure layers or domains against cyberthreats and cybercrime.
+                
+                Critical infrastructure security
+                Critical infrastructure security protects the computer systems, applications, networks, data and digital assets that a society depends on for national security, economic health and public safety. In the United States, the National Institute of Standards and Technology (NIST) developed a cybersecurity framework to help IT providers in this area. The US Department of Homeland Security’ Cybersecurity and Infrastructure Security Agency (CISA) provides extra guidance.
+                
+                Network security
+                Network security prevents unauthorized access to network resources, and detects and stops cyberattacks and network security breaches in progress. At the same time, network security helps ensure that authorized users have secure and timely access to the network resources they need.
+                
+                Endpoint security
+                Endpoints—servers, desktops, laptops, mobile devices—remain the primary entry point for cyberattacks. Endpoint security protects these devices and their users against attacks, and also protects the network against adversaries who use endpoints to launch attacks.
+                
+                Application security
+                Application security protects applications running on-premises and in the cloud, pr</p>
+        </div><hr>
+        <div>
+            <h2>Fixed:</h2>
+            <p>An element with position: fixed; is positioned relative to the
+                viewport, which means it always stays in the same place even if
+                the page is scrolled:</p>
+            <div class="fixed">-by INDU.V ABOUT CYBER SECURITY</div>
+        </div><hr><br>
+        <p>Cybersecurity aims to protect individuals’ and organizations’ systems, applications, computing devices, sensitive data and financial assets against computer viruses, sophisticated and costly ransomware attacks, and more.
+
+            Cyberattacks have the power to disrupt, damage or destroy businesses, and the cost to victims keeps rising. For example, according to IBM's Cost of a Data Breach 2023 report, 
+            
+            The average cost of a data breach in 2023 was USD 4.45 million, up 15% over the last three years;
+            
+            The average cost of a ransomware-related data breach in 2023 was even higher, at USD 5.13 million. This number does not include the cost of the ransom payment, which averaged an extra USD 1,542,333, up 89% from the previous year. 
+            By one estimate, cybercrime might cost the world economy USD 10.5 trillion per year by 2025.1
+            
+            The expanding information technology (IT) trends of the past few years include:
+            
+            a rise in cloud computing adoption,
+            network complexity,
+            remote work and work from home,
+            bring your own device (BYOD) programs,
+            and connected devices and sensors in everything from doorbells to cars to assembly lines.
+            All these trends create tremendous business advantages and human progress, but also provide exponentially more opportunities for cybercriminals to attack.
+            
+            Not surprisingly, a recent study found that the global cybersecurity worker gap—the gap between existing cybersecurity workers and cybersecurity jobs that need to be filled—was 3.4 million workers worldwide.2 Resource-strained security teams are focusing on developing comprehensive cybersecurity strategies that use advanced analytics, artificial intelligence and automation to fight cyberthreats more effectively and minimize the impact of cyberattacks.
+            
+            Report
+            IBM Security X-Force Threat Intelligence Index
+            Gain insights to prepare and respond to cyberattacks with greater speed and effectiveness with the IBM Security X-Force Threat Intelligence Index.
+            
+            Related content
+            Register for the Cost of a Data Breach report
+            
+            Types of cybersecurity (cybersecurity domains)
+            A strong cybersecurity strategy protects all relevant IT infrastructure layers or domains against cyberthreats and cybercrime.
+            
+            Critical infrastructure security
+            Critical infrastructure security protects the computer systems, applications, networks, data and digital assets that a society depends on for national security, economic health and public safety. In the United States, the National Institute of Standards and Technology (NIST) developed a cybersecurity framework to help IT providers in this area. The US Department of Homeland Security’ Cybersecurity and Infrastructure Security Agency (CISA) provides extra guidance.
+            
+            Network security
+            Network security prevents unauthorized access to network resources, and detects and stops cyberattacks and network security breaches in progress. At the same time, network security helps ensure that authorized users have secure and timely access to the network resources they need.
+            
+            Endpoint security
+            Endpoints—servers, desktops, laptops, mobile devices—remain the primary entry point for cyberattacks. Endpoint security protects these devices and their users against attacks, and also protects the network against adversaries who use endpoints to launch attacks.
+            
+            Application security
+            Application security protects applications running on-premises and in the cloud, pr</p>
+        <p>Cybersecurity aims to protect individuals’ and organizations’ systems, applications, computing devices, sensitive data and financial assets against computer viruses, sophisticated and costly ransomware attacks, and more.
+
+            Cyberattacks have the power to disrupt, damage or destroy businesses, and the cost to victims keeps rising. For example, according to IBM's Cost of a Data Breach 2023 report, 
+            
+            The average cost of a data breach in 2023 was USD 4.45 million, up 15% over the last three years;
+            
+            The average cost of a ransomware-related data breach in 2023 was even higher, at USD 5.13 million. This number does not include the cost of the ransom payment, which averaged an extra USD 1,542,333, up 89% from the previous year. 
+            By one estimate, cybercrime might cost the world economy USD 10.5 trillion per year by 2025.1
+            
+            The expanding information technology (IT) trends of the past few years include:
+            
+            a rise in cloud computing adoption,
+            network complexity,
+            remote work and work from home,
+            bring your own device (BYOD) programs,
+            and connected devices and sensors in everything from doorbells to cars to assembly lines.
+            All these trends create tremendous business advantages and human progress, but also provide exponentially more opportunities for cybercriminals to attack.
+            
+            Not surprisingly, a recent study found that the global cybersecurity worker gap—the gap between existing cybersecurity workers and cybersecurity jobs that need to be filled—was 3.4 million workers worldwide.2 Resource-strained security teams are focusing on developing comprehensive cybersecurity strategies that use advanced analytics, artificial intelligence and automation to fight cyberthreats more effectively and minimize the impact of cyberattacks.
+            
+            Report
+            IBM Security X-Force Threat Intelligence Index
+            Gain insights to prepare and respond to cyberattacks with greater speed and effectiveness with the IBM Security X-Force Threat Intelligence Index.
+            
+            Related content
+            Register for the Cost of a Data Breach report
+            
+            Types of cybersecurity (cybersecurity domains)
+            A strong cybersecurity strategy protects all relevant IT infrastructure layers or domains against cyberthreats and cybercrime.
+            
+            Critical infrastructure security
+            Critical infrastructure security protects the computer systems, applications, networks, data and digital assets that a society depends on for national security, economic health and public safety. In the United States, the National Institute of Standards and Technology (NIST) developed a cybersecurity framework to help IT providers in this area. The US Department of Homeland Security’ Cybersecurity and Infrastructure Security Agency (CISA) provides extra guidance.
+            
+            Network security
+            Network security prevents unauthorized access to network resources, and detects and stops cyberattacks and network security breaches in progress. At the same time, network security helps ensure that authorized users have secure and timely access to the network resources they need.
+            
+            Endpoint security
+            Endpoints—servers, desktops, laptops, mobile devices—remain the primary entry point for cyberattacks. Endpoint security protects these devices and their users against attacks, and also protects the network against adversaries who use endpoints to launch attacks.
+            
+            Application security
+            Application security protects applications running on-premises and in the cloud, pr</p>
+
+        <p>Cybersecurity aims to protect individuals’ and organizations’ systems, applications, computing devices, sensitive data and financial assets against computer viruses, sophisticated and costly ransomware attacks, and more.
+
+            Cyberattacks have the power to disrupt, damage or destroy businesses, and the cost to victims keeps rising. For example, according to IBM's Cost of a Data Breach 2023 report, 
+            
+            The average cost of a data breach in 2023 was USD 4.45 million, up 15% over the last three years;
+            
+            The average cost of a ransomware-related data breach in 2023 was even higher, at USD 5.13 million. This number does not include the cost of the ransom payment, which averaged an extra USD 1,542,333, up 89% from the previous year. 
+            By one estimate, cybercrime might cost the world economy USD 10.5 trillion per year by 2025.1
+            
+            The expanding information technology (IT) trends of the past few years include:
+            
+            a rise in cloud computing adoption,
+            network complexity,
+            remote work and work from home,
+            bring your own device (BYOD) programs,
+            and connected devices and sensors in everything from doorbells to cars to assembly lines.
+            All these trends create tremendous business advantages and human progress, but also provide exponentially more opportunities for cybercriminals to attack.
+            
+            Not surprisingly, a recent study found that the global cybersecurity worker gap—the gap between existing cybersecurity workers and cybersecurity jobs that need to be filled—was 3.4 million workers worldwide.2 Resource-strained security teams are focusing on developing comprehensive cybersecurity strategies that use advanced analytics, artificial intelligence and automation to fight cyberthreats more effectively and minimize the impact of cyberattacks.
+            
+            Report
+            IBM Security X-Force Threat Intelligence Index
+            Gain insights to prepare and respond to cyberattacks with greater speed and effectiveness with the IBM Security X-Force Threat Intelligence Index.
+            
+            Related content
+            Register for the Cost of a Data Breach report
+            
+            Types of cybersecurity (cybersecurity domains)
+            A strong cybersecurity strategy protects all relevant IT infrastructure layers or domains against cyberthreats and cybercrime.
+            
+            Critical infrastructure security
+            Critical infrastructure security protects the computer systems, applications, networks, data and digital assets that a society depends on for national security, economic health and public safety. In the United States, the National Institute of Standards and Technology (NIST) developed a cybersecurity framework to help IT providers in this area. The US Department of Homeland Security’ Cybersecurity and Infrastructure Security Agency (CISA) provides extra guidance.
+            
+            Network security
+            Network security prevents unauthorized access to network resources, and detects and stops cyberattacks and network security breaches in progress. At the same time, network security helps ensure that authorized users have secure and timely access to the network resources they need.
+            
+            Endpoint security
+            Endpoints—servers, desktops, laptops, mobile devices—remain the primary entry point for cyberattacks. Endpoint security protects these devices and their users against attacks, and also protects the network against adversaries who use endpoints to launch attacks.
+            
+            Application security
+            Application security protects applications running on-premises and in the cloud, pr</p>
+
+        <p>Cybersecurity aims to protect individuals’ and organizations’ systems, applications, computing devices, sensitive data and financial assets against computer viruses, sophisticated and costly ransomware attacks, and more.
+
+            Cyberattacks have the power to disrupt, damage or destroy businesses, and the cost to victims keeps rising. For example, according to IBM's Cost of a Data Breach 2023 report, 
+            
+            The average cost of a data breach in 2023 was USD 4.45 million, up 15% over the last three years;
+            
+            The average cost of a ransomware-related data breach in 2023 was even higher, at USD 5.13 million. This number does not include the cost of the ransom payment, which averaged an extra USD 1,542,333, up 89% from the previous year. 
+            By one estimate, cybercrime might cost the world economy USD 10.5 trillion per year by 2025.1
+            
+            The expanding information technology (IT) trends of the past few years include:
+            
+            a rise in cloud computing adoption,
+            network complexity,
+            remote work and work from home,
+            bring your own device (BYOD) programs,
+            and connected devices and sensors in everything from doorbells to cars to assembly lines.
+            All these trends create tremendous business advantages and human progress, but also provide exponentially more opportunities for cybercriminals to attack.
+            
+            Not surprisingly, a recent study found that the global cybersecurity worker gap—the gap between existing cybersecurity workers and cybersecurity jobs that need to be filled—was 3.4 million workers worldwide.2 Resource-strained security teams are focusing on developing comprehensive cybersecurity strategies that use advanced analytics, artificial intelligence and automation to fight cyberthreats more effectively and minimize the impact of cyberattacks.
+            
+            Report
+            IBM Security X-Force Threat Intelligence Index
+            Gain insights to prepare and respond to cyberattacks with greater speed and effectiveness with the IBM Security X-Force Threat Intelligence Index.
+            
+            Related content
+            Register for the Cost of a Data Breach report
+            
+            Types of cybersecurity (cybersecurity domains)
+            A strong cybersecurity strategy protects all relevant IT infrastructure layers or domains against cyberthreats and cybercrime.
+            
+            Critical infrastructure security
+            Critical infrastructure security protects the computer systems, applications, networks, data and digital assets that a society depends on for national security, economic health and public safety. In the United States, the National Institute of Standards and Technology (NIST) developed a cybersecurity framework to help IT providers in this area. The US Department of Homeland Security’ Cybersecurity and Infrastructure Security Agency (CISA) provides extra guidance.
+            
+            Network security
+            Network security prevents unauthorized access to network resources, and detects and stops cyberattacks and network security breaches in progress. At the same time, network security helps ensure that authorized users have secure and timely access to the network resources they need.
+            
+            Endpoint security
+            Endpoints—servers, desktops, laptops, mobile devices—remain the primary entry point for cyberattacks. Endpoint security protects these devices and their users against attacks, and also protects the network against adversaries who use endpoints to launch attacks.
+            
+            Application security
+            Application security protects applications running on-premises and in the cloud, pr</p>
+
+        <p>Cybersecurity aims to protect individuals’ and organizations’ systems, applications, computing devices, sensitive data and financial assets against computer viruses, sophisticated and costly ransomware attacks, and more.
+
+            Cyberattacks have the power to disrupt, damage or destroy businesses, and the cost to victims keeps rising. For example, according to IBM's Cost of a Data Breach 2023 report, 
+            
+            The average cost of a data breach in 2023 was USD 4.45 million, up 15% over the last three years;
+            
+            The average cost of a ransomware-related data breach in 2023 was even higher, at USD 5.13 million. This number does not include the cost of the ransom payment, which averaged an extra USD 1,542,333, up 89% from the previous year. 
+            By one estimate, cybercrime might cost the world economy USD 10.5 trillion per year by 2025.1
+            
+            The expanding information technology (IT) trends of the past few years include:
+            
+            a rise in cloud computing adoption,
+            network complexity,
+            remote work and work from home,
+            bring your own device (BYOD) programs,
+            and connected devices and sensors in everything from doorbells to cars to assembly lines.
+            All these trends create tremendous business advantages and human progress, but also provide exponentially more opportunities for cybercriminals to attack.
+            
+            Not surprisingly, a recent study found that the global cybersecurity worker gap—the gap between existing cybersecurity workers and cybersecurity jobs that need to be filled—was 3.4 million workers worldwide.2 Resource-strained security teams are focusing on developing comprehensive cybersecurity strategies that use advanced analytics, artificial intelligence and automation to fight cyberthreats more effectively and minimize the impact of cyberattacks.
+            
+            Report
+            IBM Security X-Force Threat Intelligence Index
+            Gain insights to prepare and respond to cyberattacks with greater speed and effectiveness with the IBM Security X-Force Threat Intelligence Index.
+            
+            Related content
+            Register for the Cost of a Data Breach report
+            
+            Types of cybersecurity (cybersecurity domains)
+            A strong cybersecurity strategy protects all relevant IT infrastructure layers or domains against cyberthreats and cybercrime.
+            
+            Critical infrastructure security
+            Critical infrastructure security protects the computer systems, applications, networks, data and digital assets that a society depends on for national security, economic health and public safety. In the United States, the National Institute of Standards and Technology (NIST) developed a cybersecurity framework to help IT providers in this area. The US Department of Homeland Security’ Cybersecurity and Infrastructure Security Agency (CISA) provides extra guidance.
+            
+            Network security
+            Network security prevents unauthorized access to network resources, and detects and stops cyberattacks and network security breaches in progress. At the same time, network security helps ensure that authorized users have secure and timely access to the network resources they need.
+            
+            Endpoint security
+            Endpoints—servers, desktops, laptops, mobile devices—remain the primary entry point for cyberattacks. Endpoint security protects these devices and their users against attacks, and also protects the network against adversaries who use endpoints to launch attacks.
+            
+            Application security
+            Application security protects applications running on-premises and in the cloud, pr</p>
+
+        
+    </body>
+</html>

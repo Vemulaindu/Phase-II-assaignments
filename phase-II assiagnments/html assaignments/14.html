@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl14</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        *{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="action.php">
+        <p>Enter your name:</p><input type="text" name="name" placeholder="enter name" required><br>
+        <p>Enter your email:</p><input type="email" name="email" placeholder="enter email" required><br>
+        <p>Enter class & section :</p><input type="checkbox" name="year & section" placeholder="I" >  I YEAR<br>
+        <input type="checkbox" name="year & section" placeholder="II" >  II YEAR<br>
+        <input type="checkbox" name="year & section" placeholder="III" >  III YEAR<br>
+        <input type="checkbox" name="year & section" placeholder="MSCs" >  MSCs<br>
+        <input type="checkbox" name="year & section" placeholder="MECs" >  MECs<br>
+        <input type="checkbox" name="year & section" placeholder="MPCs" >  MPCs<br>
+        <input type="checkbox" name="year & section" placeholder="MPC" >  MPC<br>
+        <p>Enter your password:</p><input type="password" name="password" placeholder="enter password" required><BR>
+        <div class="container mt-3">                                          
+        <div class="dropdown dropstart"><br>select your district:   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" >Select
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">KURNOOL</a></li>
+        <li><a class="dropdown-item" href="#">NANDYAL</a></li>
+        <li><a class="dropdown-item" href="#">GUNTHAKAL</a></li>
+        </ul>
+        </div>
+        </div>
+          
+        <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+h1{
+    color: whitesmoke;
+    background-color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    color: blueviolet;
+    background-color: bisque;
+    text-align: right;
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ul{
+    color: rgb(21, 21, 21);
+    background-color: blue;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
